@@ -1,0 +1,73 @@
+# REWI.RE
+
+> REWI.RE fuses strategic insight, cutting-edge technology and human-centered
+> storytelling to create immersive experiences that shatter conventions and
+> redefine what is possible.
+
+REWI.RE is an experience design and creative technology practice. The work spans
+immersive and experiential projects, spatial intelligence, real-time and XR
+systems, and the strategy and infrastructure behind them. This file lists the
+site's primary content so AI systems can cite it accurately.
+
+## Core pages
+
+- [Home](https://rewi.re/): Overview of REWI.RE, its capabilities and featured work.
+- [About](https://rewi.re/about): Background, approach and areas of expertise.
+
+## Projects
+
+- [Zero-Carbon Smart City](https://rewi.re/projects/smart-city): Incorporating AI, web3, blockchain, computer vision, and metaverse technologies to create a sustainable, technologically advanced urban environment that enhances quality of life while maintaining zero carbon emissions.
+- [Live at Le Louvre](https://rewi.re/projects/visa-louvre): Imagination produced a groundbreaking concert experience that merged classical art with contemporary music, creating a unique cultural moment at one of the world's most iconic venues.
+- [Masters of Movement](https://rewi.re/projects/visa-masters): An innovative fusion of sports, art, and technology, transforming athletic movements into stunning digital artworks through advanced motion capture.
+- [FIFA World Cup Qatar Countdown](https://rewi.re/projects/fifa-countdown): The FIFA World Cup Qatar 2022 Official Countdown Clock stands as a testament to technical ingenuity, cultural integration, and design excellence.
+- [All-Electric Ford Reveal](https://rewi.re/projects/ford-explorer): A groundbreaking digital-first reveal event for Ford's New All-Electric Explorer™ SUV, combining real-time technology with immersive storytelling. Working with Imagination and Pureweb, the virtual reveal event seamlessly transitioned from linear video content and live virtual production into a mobile-first interactive virtual test drive experience.
+- [MLB London Series Trafalgar Square](https://rewi.re/projects/mlb-london): An immersive baseball experience in the heart of London, combining physical installations with digital technology to introduce British audiences to America's favorite pastime.
+- [Luxury Immersive Showcase](https://rewi.re/projects/neom-sindalah-xr): Sindalah represents NEOM's first luxury island destination, featuring world-class hotels, innovative retail experiences, and exclusive leisure facilities. Working with the lead agency, we helped create an engaging mixed reality experience that would bring this visionary development to life for visitors at major technology conferences.
+- [Spatial Intelligence](https://rewi.re/projects/spatial_intelligence): When delivering large scale experiential projects, a 360° view of the effectiveness of the space, operations, and content is essential. Leveraging cutting-edge technologies, including AI-enabled computer vision, IoT sensors, and realtime video game engines, we help clients deliver realtime actionable insights, to optimise engagement and improve the visitor experience.
+- [Retail Concept Store](https://rewi.re/projects/vivo-retail)
+- [OpenXP](https://rewi.re/projects/openxp): OpenXP is the open platform for orchestrating immersive physical-digital experiences. Define journeys in a single readable experience file, wire any hardware, design for human perception.
+- [LEGO Inspiration Wonderland](https://rewi.re/projects/lego-wonderland): Imagination China delivered this playful interactive experience, combining physical play with digital innovation, to bring LEGO creativity to life through innovative technology and storytelling.
+- [Next-Generation Theme Park](https://rewi.re/projects/theme-park): Integrating AI, Web3, and XR technology to deliver a groundbreaking experience that redefines the theme park sector. The project combines cutting-edge technology with immersive storytelling to create unique, personalised experiences for visitors.
+- [Ford Go Faster](https://rewi.re/projects/ford-go-faster): Innovative experience that put participants in the driver's seat of their own action movie, combining real driving experiences with professional film production techniques. Imagination delivered a visceral immersive stunt experience, combining real driving with Hollywood-style film production.
+- [Imagination Labs®](https://rewi.re/projects/imagination-labs): As Group CTO of Imagination, Anton Christodoulou defined and launched a global innovation and R&D programme, including a showcase, workshop, and prototyping Lab in central London, and incubated Lume, a 3D/VR nanoimaging start-up.
+- [Audience Engagement Technology Solution](https://rewi.re/projects/audience-engagement-tech): In 2009, a major stadium brand wanted to enable the audience to compete on the big screen using an XBOX 360.
+- [Music Theme Park Experience](https://rewi.re/projects/music-theme-park): Including AI, predictive analytics, computer vision, wearables, hologram tech, and realtime VFX to create an unprecedented interactive music experience that responds to and evolves with visitor engagement.
+- [The Future of Experiences](https://rewi.re/projects/xpkit): Over the past decade, experience design has undergone a seismic transformation. The way brands connect with their customers - whether in-person or online, has fundamentally changed, with technology driving this evolution.
+- [AI Working Group](https://rewi.re/projects/ai-working-group): The surge in AI tools is reshaping the creative landscape, offering new possibilities for innovation and collaboration.
+- [I-PACE Concept Launch](https://rewi.re/projects/jaguar-ipace): A world-first virtual reality reveal that connected global audiences in real-time, allowing them to experience the future of automotive design through an immersive digital showcase.
+- [AI Hackathon](https://rewi.re/projects/ai-hackathon): Initial concept to business plans, pitch presentations, and fully functional prototypes in 2.5 hours.
+
+## Articles
+
+- [The Future of Content](https://rewi.re/articles/future-of-content): Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts.
+- [Digital Transformation In Real Time](https://rewi.re/articles/digital-transformation-in-real-time): Innovate UK Immersive Tech Network and Imagination was joined by industry experts for a series of panel discussions and thought-leadership pieces exploring the impact of virtual production and real time content production, each from a different perspective. In this session, we explored utilising Virtual Production to help enable Digital Transformation in real time, including what is required to embrace realtime technologies and workflows into your organisation.
+- [Beyond Imagination](https://rewi.re/articles/beyond-imagination): The Digital Line spoke to Anton about his thoughts around the evolving technology landscape.
+- [Beyond Rankings](https://rewi.re/articles/redefining_uni_success_in_the_ai_era): University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?
+- [Forging AI-native Leaders](https://rewi.re/articles/lsi_governor): AI is reshaping every facet of our existence, from daily chores, to rediscovering what it means to be human. The path ahead is uncharted, filled with volatility, uncertainty, complexity, and ambiguity. Yet, within this landscape lies unparalleled opportunity for those prepared to adapt, imagine what’s possible, and learn how to make it happen.
+- [allpointsAI Launch](https://rewi.re/articles/allpointsai_launch): A bold new venture, allpointsAI, has officially launched, to cut through the AI ‘Witchcraft’, and unlock real-world business value for creative leaders. Built by agency leaders, for agency leaders, to demystify the noise, confusion, and hype surrounding AI, and deliver real-world, strategic, and measurable AI-powered solutions for creative businesses and agencies.
+- [The new machines making waves](https://rewi.re/articles/audio-machines): The creative world of sound, music, design and voice-over is at the forefront of an AI-led tech revolution that is poised to lend a hand – or to take the hand that feeds it and replace it completely. Tim Cumming talks to the sound creatives wrapping their ears around the unfolding possibilities and possible pitfalls.
+- [Apple Vision Pro's new world view](https://rewi.re/articles/vision-pro)
+- [Why VP stages are all the rage](https://rewi.re/articles/vp-stages): Exploring how Virtual Production is transforming the entertainment industry.
+- [The Future of Invisible Tech](https://rewi.re/articles/immersive-tech-future): How emerging technologies will integrate into daily lives and reshape experiences.
+- [Why Immersive Tech Won CES 2024](https://rewi.re/articles/ces-2024): The evolution of immersive tech at CES 2024, where VR, AR, and XR took centre stage.
+- [Democratic Resilience & AI](https://rewi.re/articles/democratic-resilience): Exploring the potential impact of AI, to strengthen or weaken democratic institutions.
+- [Transforming Spectator Experience](https://rewi.re/articles/spectator-sports): How emerging tech is transforming spectator experiences for sports & entertainment.
+- [Bringing big ideas to life](https://rewi.re/articles/tech-big-ideas): How technology enables creative vision and innovation in experience design.
+- [The future of experience design and blending realities](https://rewi.re/articles/experience-design-future): Vision for the future of immersive experiences.
+- [Designing For Transparency with AI](https://rewi.re/articles/designing-transparency): A framework for implementing ethical AI and building trust for customer experiences.
+- [Hiring a prompt engineer?](https://rewi.re/articles/prompt-engineer): Guide for agencies considering the emerging role of prompt engineers.
+- [Next level brand experiences](https://rewi.re/articles/brand-experiences-2023): As consumer expectations evolve, brands must adapt their experiential strategies to create more meaningful, memorable, and measurable connections with their audiences.
+- [Reflections on CES 2023](https://rewi.re/articles/ces-2023): Exploring the latest technology, immersive experiences and AI integration, at CES 2023.
+- [Virtual Production & Storytelling](https://rewi.re/articles/virtual-production): Revolutionising the creative process & storytelling, with Virtual production.
+- [Data Privacy Ethics & Implications](https://rewi.re/articles/data-privacy-podcast): A deep dive into the challenges and solutions surrounding data privacy.
+- [Facial recognition, Society & AI](https://rewi.re/articles/facial-recognition): The ethical implications and societal impacts of AI-powered facial recognition technology.
+- [Augmenting creativity, using AI](https://rewi.re/articles/augmenting-creativity): Artificial intelligence and machine learning are bringing about fundamental changes to the ways in which humans work as they move into the mainstream. First published in Advertising Week, please click link for the original article.
+- [The Future of Live Experiences](https://rewi.re/articles/future-of-live-experiences): Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences.
+
+## Notes
+
+- Canonical domain: https://rewi.re
+- Content is served from a client-rendered application; crawlers that do not
+  execute JavaScript are served pre-rendered HTML containing the same text.
+- Sitemap: https://rewi.re/sitemap.xml
+- Last generated: 2026-11-03T00:49:49.858Z

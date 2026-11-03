@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exploring the latest technology, immersive experiences and AI integration, at CES 2023." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Reflections on CES 2023 | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/ces-2023" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/ces-2023" />
+    <meta property="og:title" content="Reflections on CES 2023 | REWI.RE" />
+    <meta property="og:description" content="Exploring the latest technology, immersive experiences and AI integration, at CES 2023." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/ces-2023.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Reflections on CES 2023 | REWI.RE" />
+    <meta name="twitter:description" content="Exploring the latest technology, immersive experiences and AI integration, at CES 2023." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/ces-2023.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Exploring the latest technology, immersive experiences and AI integration, at CES 2023.","name":"Reflections on CES 2023","description":"Exploring the latest technology, immersive experiences and AI integration, at CES 2023.","url":"https://rewi.re/articles/ces-2023","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/ces-2023.jpg","datePublished":"2023-02-24","keywords":"Technology Trends Thought Leadership, AI Prototyping & Testing, Immersive Technology, Experience Design, Web3, Visitor Insights & Flow Optimisation, Metaverse","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Reflections on CES 2023</h1>
+<h2>Exploring the latest technology, immersive experiences and AI integration, at CES 2023.</h2>
+<p>Exploring the latest technology, immersive experiences and AI integration, at CES 2023.</p>
+<p>Tags: Technology Trends Thought Leadership, AI Prototyping &amp; Testing, Immersive Technology, Experience Design, Web3, Visitor Insights &amp; Flow Optimisation, Metaverse</p>
+<p>Below is a transcript. Please click the link for the original article.</p>
+<p>CES has over several decades established itself as a truly international festival of tech, with the weird and wonderful from around the globe presenting the latest innovations and concepts. With over 170,000 visitors, January 2020 was exciting, insanely busy, widely optimistic, and probably the last international in-person event of that size that year.</p>
+<p>2021 saw the first and hopefully last fully virtual CES. Attempts to innovate with 3D avatars performing live in your living room via your mobile was fun, however, the overall sense of wonder, excitement and serendipity was lost. 2022 went from a bang to a whimper as a wave of big companies pulled out at the last minute, and in-person attendance dropping below 40,000.</p>
+<p>Making our world a better place... using AI</p>
+<p>With barely a mask in sight and 115,000 visitors, CES 2023 was back, and focussed on how tech can solve the world's biggest challenges, such as the provision of basic resources like food and water - including Source, using “Hydropanels” to create perfect drinking water from sunlight and air. CES has always championed important causes and tech for good. This year it was front and centre.</p>
+<p>CES connects the past, present and future of technology more effectively than any other show on earth. It can sometimes feel like a relic of a different time, and then suddenly it will surprise you with a new and crazy technology, or application of technology that opens up a new world of possibilities. Nothing demonstrated this connection more clearly this year than AI. It is both impossible to ignore or avoid, as it is now integrated at some basic level into almost everything with a plug. The power of machine and deep learning algorithms has exploded into popular culture, such as the inescapable ChatGPT effect, or Stable Diffusion powered services such as Midjourney. It is also being effectively applied to some of the biggest challenges of our time such as food, water and energy.</p>
+<p>The keynote by John May, Chairman &amp; CEO of John Deere exemplified this, demonstrating how advanced computer vision and AI are being used today with real-world impact, such as an up to 60% reduction in water and herbicide usage, by targeting crops and weeds at high speed and millimetre accuracy. It was insightful, fascinating, and real and meaningful disruptive innovation in action.</p>
+<p>In the growing health tech category, there were at least four products that analyse your waste, at source. Health tech veteran Withings had the best version, with the Apple-esque U-Scan - a clean white puck shaped device that you put in the toilet bowl to analyse your urine to get health insights. It even identifies and personalises the results based on the unique flow of the user.</p>
+<p>And of course...</p>
+<p>It took a whole 23 minutes before the metaverse was referenced on stage during the opening address.</p>
+<p>The metaverse doesn’t exist, and yet, every one of us is also already at least partially immersed in a version of it. Not so much a version of the Matrix (yet...), more an evolution of our behaviour and social protocols, as we fluidly switch between the physical and digital realms. As we communicate, capture, share and navigate the world around us, we have integrated technology into our everyday lives to a point where we feel anxious and even helpless without it. Using three dimensions to transform our clunky connection to the 2D internet via a screen, keyboard and mouse no longer seems like such a giant leap.</p>
+<p>This evolution appeared in many forms, from VR, AR, MR, haptic suits and gloves, to virtual world creators, and even a fully working virtual world on one stand with a large group sitting down and plugged into VR with a giant screen above showing the action (it was simultaneously weird and entertaining to watch). While less prominent, enabling technology references such as Web3, blockchain and crypto were there too - Web3 is principally about the broader evolution of software and network based architectures, and CES at its core is still focused on integrated hardware and software. Whatever you might imagine the future to be, immersive technology and the platforms required to access it are now pervasive, with a number of big companies clearly continuing to invest heavily and showcase what is possible.</p>
+<p>Sony launched the PS VR2, shipping this month. While there are some limitations (no backward compatibility for example) it is a significant improvement. The original was brilliant for its time, but there were cables everywhere. Reduced to one cable with new dedicated controllers, it is now much easier to pick up and play.</p>
+<p>Following the Meta Quest Pro's shift to integrate MR (mixed reality) in addition to VR, HTC launched the XR Elite, a new lighter and more comfortable VR/MR headset.</p>
+<p>Canon publicly previewed their once shelved MReal X1 mixed reality headset, which has been in development for over a decade - I first tried it at the Canon EXPO in Paris, their flagship trade show, back in 2015. Most notable was how small the device is now, though not cost wise - the new X1 version is likely to be tens of thousands when it is launched later this year, based on the previous version's $38,000 price tag.</p>
+<p>Based on M. Night Shyamalan’s new film, Canon’s “cabin in the woods” style activation, in the middle of the exhibition hall, looked fantastic. The story-led gamified experience was fun and engaging, combining collaboration, hand and environment tracking to merge the physical/digital environments in a very compelling way. A great example of how this tech can be used, and one of the best examples at the show. Weirdly, despite the “glasses” being so small, it didn’t have a frame or a strap, instead using handles to hold it against your face, like being at a masked ball, which took you out of the experience a little.</p>
+<p>Canon also showcased their AMLOS (Activate My Line of Sight) system, which allows users to pan and zoom in on specific areas during a video call using Canon’s high resolution camera tech. The demo put a group of you into a live video conference, with a camera placed into another physical cabin in the woods (remote this time). You had to help someone in the room find out what had happened to the original inhabitants by zooming in on particular areas to find clues. It was a surprisingly effective and interesting demo.</p>
+<p>One interesting trend is transparent colour displays embedded into standard lenses, which could be used for notifications and way-finding in a pair of glasses. Not dissimilar to the original Google Glass, but instead with the image embedded directly into the lens in your field of view. A more practical version of MR, that could prove to be a more immediately useful and attractive consumer product in the not-too-distant future.</p>
+<p>Following a very rocky start, Magic Leap showcased their new enterprise focussed version 2 headset. The original version was an impressive device with some excellent showcase content, though nowhere near the ridiculous hype. I first tried Webex Hologram a year ago with the HoloLens 2. Chatting to the person "sitting" in the chair opposite me (who was physically located in Sweden) was fun, effective, and relatively comfortable. While the benefits still don't quite outweigh the still relatively unwieldy setup and lack of eye-to-eye contact, it was still great to experience the ongoing evolution and possibilities this presents.</p>
+<p>It is always fun exploring the start-up hall, Eureka Park, to see some of the applications and often slightly crazy ideas, that just might work!</p>
+<p>Graffity Partners, a Tokyo based start-up launched two AR games for the Nreal and Lenovo AR glasses. Built using Snapdragon Spaces, SushiCraft uses the hand tracking in the ThinkReality A3 glasses to create a fun and engaging experience.</p>
+<p>Another highlight was Aromajoin, a desktop (available now) and neck mounted (this summer) scent delivery device, that can be synchronised with video or gaming content, in real time.</p>
+<p>Beautiful screens, wireless, and 3D</p>
+<p>As always, there were some very big and beautiful screens, including the LG Wireless OLED M, the world’s first truly wireless TV. Maybe because of the two year gap (there were some screens in 2022 but very scaled back), the quality and depth of realism of the TV's in general this year was really impressive.</p>
+<p>No-glasses 3D screens, which I first experienced in BT’s Adastral Park Labs back in 2001, is finally starting to look impressive, and even useful. Sony’s Spatial Reality Display was the most immersive, though even with the eye-tracking (the magic behind current 3D displays) I had almost immediate eye strain, and glitching as I moved my head. The unit I tried was a prototype, so I am hoping the production version now available has addressed this, either in hardware or through some form of software calibration, as there is great potential here.</p>
+<p>Leia Inc had the most impressive screen overall. The depth of field was great, though not as immersive as Sony’s screen. It was very comfortable to look at, with no eye strain at all after playing for several minutes. Leia offers an SDK to make it easy to convert existing 2D and 3D content and applications to work with their displays, created in Unity or Unreal for example. A top-down Gauntlet style game demo was bright, colourful and fun, with the 3D element really enhancing the experience. The difference is apparently due to their embedded “3D Lightfield” technology. One downside of eye-tracking in general is that only one person can use the screen at a time. Great for gaming, 3D design and even tablets, but not for shared experiences. Leia have advised since that they are working on a much higher resolution version which will not require eye tracking, and offer a truly multiuser experience. I did see some 3D TV’s without eye tracking as I have in previous years, and they have not improved.</p>
+<p>Smart Cars, Smart Home, Smart City</p>
+<p>Battery tech, electrification and AI-enabled everything, especially automotive, is now a major fixture at CES. Aside from an array of electric cars, boats and drones from new and existing players, there were quite a few demos of autonomous passenger EVs plugged into smart city infrastructure - which you can imagine starting to appear on our city roads. Automotive is effectively computers on wheels now, so expect more car companies to join next year.</p>
+<p>The Vegas Loop, first launched a year ago, are underground tunnels created by Elon’s Boring Company, which connect some of the exhibition halls. It was fun (and quick) jumping in a Tesla and disappearing down a rabbit hole, popping up a few minutes later. More tunnels are planned to connect all of the venues to each other and other amenities, including the airport.</p>
+<p>On a much smaller scale, and a previous favourite of mine, the mui Board, a plank of wood with a touch sensitive LED matrix display designed to integrate more naturally into your home, looks close to being ready as a consumer product. Starting as a Kickstarter project a few years ago, it will support Matter on launch. This is hopefully an ongoing trend to integrate smart home tech into our lives in a much more organic and harmonious way.</p>
+<p>Matter, the smart home standard launched to much fanfare during CES 2022, is starting to develop widespread support among traditionally competing smart home platforms. This is an important and positive step forward for smart home tech.</p>
+<p>Every year there are always some crazy-on-the-face-of-it products on display. Previous years included a $3000 clapping robot, a guy with a laptop running a perfect random number generator, and a machine that makes whiskey glasses out of ice in 30 seconds.</p>
+<p>This year, the award goes to the Soul Speaker by Hong Kong start-up, Blackleaf. Housed in an angular concrete shell, the speaker uses “Ferrofluid” to create a lava lamp style “eye” in the centre of the speaker that synchronises with the music. When AI becomes sentient, this is how I imagine it will choose to communicate, like a combination of HAL from 2001, and the aliens in the film Arrival.</p>
+<p>Technology in its most basic form has the ability to inspire joy and wonder, and at its most advanced, to change the course of human history. CES remains an important place and moment in time where the convergence of these ideas and the possibilities can be experienced and explored. Viva la CES.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

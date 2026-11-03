@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How emerging technologies will integrate into daily lives and reshape experiences." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>The Future of Invisible Tech | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/immersive-tech-future" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/immersive-tech-future" />
+    <meta property="og:title" content="The Future of Invisible Tech | REWI.RE" />
+    <meta property="og:description" content="How emerging technologies will integrate into daily lives and reshape experiences." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/immersive-tech-future.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Future of Invisible Tech | REWI.RE" />
+    <meta name="twitter:description" content="How emerging technologies will integrate into daily lives and reshape experiences." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/immersive-tech-future.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How emerging technologies will integrate into daily lives and reshape experiences.","name":"The Future of Invisible Tech","description":"How emerging technologies will integrate into daily lives and reshape experiences.","url":"https://rewi.re/articles/immersive-tech-future","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/immersive-tech-future.jpg","datePublished":"2024-02-06","keywords":"Technology Trends & Thought Leadership, Virtual Reality, Technology Trends & Thought Leadership, Creative Ideation & Prototyping, Immersive Technology, Experience Design, Innovation & Commercialisation, AI Prototyping & Testing, Visitor Insights & Flow Optimisation","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>The Future of Invisible Tech</h1>
+<h2>How emerging technologies will integrate into daily lives and reshape experiences.</h2>
+<p>How emerging technologies will integrate into daily lives and reshape experiences.</p>
+<p>Tags: Technology Trends &amp; Thought Leadership, Virtual Reality, Technology Trends &amp; Thought Leadership, Creative Ideation &amp; Prototyping, Immersive Technology, Experience Design, Innovation &amp; Commercialisation, AI Prototyping &amp; Testing, Visitor Insights &amp; Flow Optimisation</p>
+<p>How invisible, immersive technologies can transform the future.</p>
+<p>Digital technology is rapidly becoming invisible, immersive, and more integrated, argues Anton Christodoulou, group chief technology officer at Imagination.</p>
+<p>First published in WARC - please click the link for the original article.</p>
+<p>For the first time, I feel like I am really starting to live in the future, though I always expected technology to evolve faster than it has.</p>
+<p>Ten years ago, I thought that, by 2024, a large proportion of us would be routinely using augmented reality (AR) glasses, or even contact lenses, to navigate the world around us. And finally, this year, it seems more likely than ever that this will soon be commonplace, along with artificial intelligence (AI) assistants that will make it easier than ever to interact with technology in an intuitive way.</p>
+<p>My recent experience at CES 2024 made me optimistic about the future by showcasing both the future and the present. CES acts as a time machine, connecting my childhood vision of a technologically-advanced future with the reality of today.</p>
+<p>It also broadly offered a human-centric approach to technology, often inspired by nature, and always aspiring to make it more accessible and easier for everyone to use.</p>
+<p>Immersive technology adoption
+Immersive technology is set to become a huge trend as it becomes more widely available. For example, XREAL glasses now include accessible AR and hand tracking in a lightweight package. Augmented reality is also more affordable and accessible than ever before, with many companies now offering this technology across multiple industries and for a variety of applications.</p>
+<p>The fruits of Sony’s early consumer VR adoption were also realised this year with the launch, in partnership with Siemens, of an “industrial metaverse” creator AR headset. Apple, not present at CES, even used the timing of the event to announce the official launch of the Apple Vision Pro in February, which will likely be one of the biggest immersive technology rollouts this year.</p>
+<p>The use of immersive technologies by brands at the show this year was impressive. SK’s fun Wonderland concept included a magic carpet ride, a flying car, and an AI fortune teller. Hyundai also showcased its industrial technology in a way that would otherwise have been far less engaging to a wider audience, while Sony demonstrated how it is already impacting and transforming film, entertainment, and attractions.</p>
+<p>The rise of invisible tech
+Tech is getting rapidly smaller, more integrated, embedded, and hidden away. It’s becoming invisible. Though highly visible technologies, such as LED screens, have become bigger in terms of scale, they have also become thinner, wireless, bezel-less, and foldable.</p>
+<p>They often masquerade as something else, be it art, photo frames, windows, furniture, or glasses. Though they have been around for a little while now, transparent TVs were a big feature at CES this year. In terms of scale and coolness, C Seed’s giant $400k 4K LED screen folds away beautifully into what can only be described as a futuristic aluminium bench.</p>
+<p>Smart home sensors and cameras have never been smaller, too; with AI-enabled voice, facial, and object recognition, they are starting to disappear completely into the background.</p>
+<p>The Rabbit R1, for example, claims to use AI and voice recognition to act as a natural interface between you and your smartphone, similar to Humane's AI Pin launched last year. The trend of using AI to move beyond traditional user interfaces and mobile apps foreshadows the next phase of human interaction.</p>
+<p>Embedding tech within nature
+Mui Lab, which I have been following since their first product in 2018, offers a natural wood plank that transforms into a touch screen with white LEDs embedded.</p>
+<p>The interface focuses on displaying feedback in an organic and human-centric manner, such as a candle-burning timer or birds flying around a tree. This is easily integrated with smart home devices via Matter, the maturing, standardised smart home protocol that will ultimately enable all smart home devices to easily talk to each other.</p>
+<p>Baracoda's BMind Smart Mirror combines AI and natural language processing (NLP) to analyse the sentiment of the user through expressions, gestures, and tones. Gesture tech, in general, is now being built into everything, including Philips’ smart lock which uses palm recognition.</p>
+<p>Sumsei, a Korean smart home company, adopted this principle as their brand philosophy: “Nature, Anytime, Anywhere.” A body dryer, designed like bathroom scales, reduces the need for towels; an elegant “wand” placed over your bed generates oxygen to aid sleep; and a scented candle burner uses gentle heat to remove the need to light the candle.</p>
+<p>Kohler, which has always offered a wide range of smart bathroom tech, continued this theme, with its Stillness Infinity bath, for the ultimate in sensory immersion.</p>
+<p>A Eureka moment in the startup hall</p>
+<p>One of my favourite parts of the show is always the startup hall, Eureka Park. The VTouch WHSP RING built on the invisible tech theme, offering a simple black wearable with a microphone that can only be activated by lifting it close to your face and whispering your commands. It is a beautiful, yet simple, concept, but unfortunately is not currently built on an open platform, and can only be used with a specific mobile app and AI engine.</p>
+<p>VTouch also used a cool technique to generate small red holograms for a wall switch. The “control” image hovers a centimetre or so from the wall, and a sensor changes its state when you “touch” it. Aside from its obvious use as a light switch, it can also be used to control media players, with the hologram indicating the current state, such as play/pause or previous/next. Surprisingly, VTouch claims that the switch will be extremely affordable, costing as little as $20.</p>
+<p>I also tried the latest version of the SenseGlove, a haptic glove that provides a real sense of being able to touch, grip, and interact with virtual objects in the real world, or interact with real objects remotely, using robotics.</p>
+<p>Though still yet to break into the mainstream, there were also a few startups this year offering a tech-enabled olfactory element to the experience, adding scent and smell, in addition to sight and sound.</p>
+<p>The power of convergence</p>
+<p>My main takeaway from CES is that we can expect to see a greater convergence of futuristic technologies, which will eventually become cheaper and more accessible, integrating technology into daily life, and pushing the boundaries of human-computer interaction.</p>
+<p>Technology also appears to be becoming less intrusive. It is increasingly being integrated into nature to give it a more human aspect, as well as to appear invisible, less unwelcome, and less invasive to the user.</p>
+<p>In addition, I continued to observe a longstanding challenge in the smart home industry in terms of privacy and open interoperability. Smart home technology, in particular, has historically been a very complicated affair, with all but the most expensive products geared towards enthusiasts, and not always making things easier for everyday consumers.</p>
+<p>This must be addressed seriously if brands, both new and old, want to ensure that technology benefits us and society, rather than causing more harm than good.</p>
+<p>Future events could see me navigating the vast technological labyrinth of CES aided and guided by my personal AI, which would talk to me, show me the way with my AR glasses, monitor my well-being, and recommend what to do, when to rest, and what to eat.</p>
+<p>They would only be recommendations, of course, and so I will probably still return as overwhelmed and exhausted from Las Vegas as ever!</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

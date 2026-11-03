@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vision for the future of immersive experiences." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>The future of experience design and blending realities | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/experience-design-future" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/experience-design-future" />
+    <meta property="og:title" content="The future of experience design and blending realities | REWI.RE" />
+    <meta property="og:description" content="Vision for the future of immersive experiences." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/experience-design-future.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The future of experience design and blending realities | REWI.RE" />
+    <meta name="twitter:description" content="Vision for the future of immersive experiences." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/experience-design-future.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Vision for the future of immersive experiences.","name":"The future of experience design and blending realities","description":"Vision for the future of immersive experiences.","url":"https://rewi.re/articles/experience-design-future","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/experience-design-future.jpg","datePublished":"2023-07-12","keywords":"Fractional CTO & Technology Strategy, Technology Trends & Thought Leadership, Experience Design, Creative Ideation & Prototyping, Customer Journey Mapping, AI Prototyping & Testing, Immersive Technology, 3D Visualisation, Privacy By Design","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>The future of experience design and blending realities</h1>
+<h2>Vision for the future of immersive experiences.</h2>
+<p>Vision for the future of immersive experiences.</p>
+<p>Tags: Fractional CTO &amp; Technology Strategy, Technology Trends &amp; Thought Leadership, Experience Design, Creative Ideation &amp; Prototyping, Customer Journey Mapping, AI Prototyping &amp; Testing, Immersive Technology, 3D Visualisation, Privacy By Design</p>
+<p>First published in New Digital Age, please click the link for the original article.</p>
+<p>As technology continues its rapid advance, physical, digital and virtual worlds are merging. This presents an extraordinary opportunity for brands to create blended experiences for a global audience, to showcase their products and services, and authentically establish their mission and purpose. This fundamental shift is transforming how we can imagine and immerse audiences.</p>
+<p>The Evolution of Experiences</p>
+<p>In the early days of the Internet, physical and digital experiences existed in entirely separate domains. The Internet offered a brave new world of utility, community, knowledge discovery, and commerce. At the same time, physical spaces were being brought to life using theatrics, lighting, projection, sound, and even pyrotechnics, to deliver unforgettable experiences.</p>
+<p>With the advent of social media and the mobile web, you could instantly share those experiences with friends and family. This offered a golden opportunity for brands, new and old, to connect with audiences vicariously. However, the 2D nature of the web and the rise of mobile also introduced a tension between being in the moment or being somewhere else.</p>
+<p>As technologies and frameworks such as web3, real time 3D gaming engines, VR, AR, blockchain, and AI mature, a new era is emerging where our experience of the world around us, real or imagined, is converging, and colliding.</p>
+<p>So, what should brands consider and how can they harness these advancements?</p>
+<p>Embrace the physical, digital and virtual</p>
+<p>In today's interconnected world, audiences exist in multiple places simultaneously - they can and do switch easily between the physical, digital and virtual worlds. It's therefore crucial to acknowledge and optimise for this and ensure a curated and seamless transition when designing experiences. It is also important to understand when to lean into the physical environment and turn off the digital interference to maintain customer engagement. By embracing this, it empowers brands to immerse their audiences into fantastical virtual worlds and decentralised communities that can co-exist and blend with the physical spaces of the future.</p>
+<p>Capturing Attention and Creating Flow</p>
+<p>Every experience presents a challenge for attention, which increase as these worlds both fragment and converge. To captivate audiences, it's crucial to keep them “in the moment”.</p>
+<p>There are several ways to manage this tension, by carefully curating the flow of the experience.</p>
+<p>One simple approach is to lock attendees' mobiles away during the experience, as experiences such as Secret Cinema and others already do. This builds up the mystery and fear of missing out, and more importantly, encourages full immersion and deeper engagement.</p>
+<p>When mobiles are an inevitable part of the experience, brands must ensure audiences can use them to immerse themselves further and minimise other distractions. By enabling them to use their mobiles in new and interesting ways, consumers can go deeper into the story and even share space with virtual audiences. For virtual audiences, finding ways to bring them into the physical space remotely, using mobile, desktop or immersive tech, can foster a sense of unity and shared experience.</p>
+<p>Blending Realities for Maximum Impact</p>
+<p>In many ways, AI acts as a mirror of our collective human experience and can unlock the ability to create rich, personalised and human-centric content in real-time, based on audience preferences and their emotional responses. Used ethically, AI enables brands to offer consumers a deeper connection with their core values.</p>
+<p>Realtime gaming engines, pixel streaming, and virtual production offer the ability to create affordable, sustainable and high-quality content and the opportunity to heighten the realism of the experience using immersive technology. AR augments the physical environment in wonderful and unique ways, such as enhancing an in-store experience. While VR is a unique medium in its ability to create empathy with the subject matter, by immersing the participant in someone else's perspective, enabling them to walk in their shoes.</p>
+<p>Looking forward, data required to deliver more sophisticated and integrated customer journeys will require technologies such as decentralisation to ensure a privacy-first approach. Doing so will also become a core tenet of a brand's reputation, and therefore a valuable marketing tool.</p>
+<p>Blending realities maximises the effectiveness of their reach, depth, and conversion. Focusing only on social reach is outdated. It's vital that the story, characters and empathy ring true, to create depth. Video game design has a long history of doing this, which provides a valuable reference point as these worlds converge.</p>
+<p>Every experience must be authentic. Genuinely great experiences do not require glam filters or social validation; they prioritise the creation of real and shared memories.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

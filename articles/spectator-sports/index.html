@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How emerging tech is transforming spectator experiences for sports &amp; entertainment." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Transforming Spectator Experience | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/spectator-sports" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/spectator-sports" />
+    <meta property="og:title" content="Transforming Spectator Experience | REWI.RE" />
+    <meta property="og:description" content="How emerging tech is transforming spectator experiences for sports &amp; entertainment." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/spectator-sports.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Transforming Spectator Experience | REWI.RE" />
+    <meta name="twitter:description" content="How emerging tech is transforming spectator experiences for sports &amp; entertainment." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/spectator-sports.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How emerging tech is transforming spectator experiences for sports & entertainment.","name":"Transforming Spectator Experience","description":"How emerging tech is transforming spectator experiences for sports & entertainment.","url":"https://rewi.re/articles/spectator-sports","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/spectator-sports.jpg","datePublished":"2023-11-08","keywords":"Experience Design, AI Prototyping & Testing, Technology Trends & Thought Leadership, Creative Ideation & Prototyping, Facial Recognition, Technology Trends & Thought Leadership, Immersive Technology, Technology Sourcing & Strategic Partnerships, Visitor Insights & Flow Optimisation, Visitor Insights & Flow Optimisation, Engagement Impact Analysis, Continuous Improvement","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Transforming Spectator Experience</h1>
+<h2>How emerging tech is transforming spectator experiences for sports &amp; entertainment.</h2>
+<p>How emerging tech is transforming spectator experiences for sports &amp; entertainment.</p>
+<p>Tags: Experience Design, AI Prototyping &amp; Testing, Technology Trends &amp; Thought Leadership, Creative Ideation &amp; Prototyping, Facial Recognition, Technology Trends &amp; Thought Leadership, Immersive Technology, Technology Sourcing &amp; Strategic Partnerships, Visitor Insights &amp; Flow Optimisation, Visitor Insights &amp; Flow Optimisation, Engagement Impact Analysis, Continuous Improvement</p>
+<p>Live events and fan engagement are undergoing an innovative transformation in the digital era.</p>
+<p>Through our latest panel discussion from the Arena Marketing Innovation series with esteemed experts Pam Allison from Verizon, Anton Christodoulou from Imagination, and Kevin Vreeland from Veridas, we unearth the exciting possibilities of leveraging cutting-edge technologies to create more interactive, engaging, and memorable live event experiences. Look back on it here. </p>
+<p>Venturing Into New Terrain
+The application of technologies such as facial recognition and data analytics are shifting the paradigm in the live event industry. These technologies promise to revolutionise event entry, enhance customer engagement, and significantly boost venue revenues. For instance, facial recognition technology could provide seamless entry into venues, increasing convenience and efficiency for attendees and organisers alike.</p>
+<p>The power of data analytics in this context is equally promising. By analysing the wealth of data generated by fans’ interactions with venues – from ticket purchases to food and drink orders – event organisers can gain invaluable insights to maximise their ROI.</p>
+<p>The Evolution of Live Event Fan Experiences
+The discussion then delves into the impact of 5G and significant investments in venue infrastructure on the fan experience. The panelists envision a future where fans can optimise their experiences through their mobile devices, make real-time decisions guided by venue data, and stay entertained even during live event downtimes. Using Major League Baseball as a case study, the webinar explores the potential of blending physical, digital, and virtual experiences to create memorable moments for fans.</p>
+<p>From AI to AR: Integrating New Technologies into Live Events
+As we navigate towards the end of the discussion, our panelists dive into the integration of emerging technologies such as AI, AR, Web3, and NFTs in live venues. The goal is to offer personalised fan experiences while ensuring privacy and security. Practical advice for venues keen on adopting these new technologies is also shared, emphasising the need for experimentation, clear objectives, and a strong supporting infrastructure.</p>
+<p>A Sneak Peek into Key Chapters
+In one chapter, we learn about the power of facial recognition in transforming live events. In another segment, we explore how changing behaviour and adopting new technologies can enhance fans’ access to venues. Finally, we examine how to create innovative, personalised experiences for fans using facial recognition, AI, AR, Web3, and NFTs.</p>
+<p>Overall, this Arena Marketing Innovation series webinar episode emphasises the immense potential of technology to revolutionise live events and enhance fan experiences. From frictionless entries to personalised experiences, the future of live events is tech-driven, and it's high time venues jumped on the bandwagon to stay ahead of the curve.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

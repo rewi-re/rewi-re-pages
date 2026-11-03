@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>The Future of Content | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/future-of-content" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/future-of-content" />
+    <meta property="og:title" content="The Future of Content | REWI.RE" />
+    <meta property="og:description" content="Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-content.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Future of Content | REWI.RE" />
+    <meta name="twitter:description" content="Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-content.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What can virtual production be when you take it beyond film production?","name":"The Future of Content","description":"Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts.","url":"https://rewi.re/articles/future-of-content","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-content.jpg","keywords":"Creative Ideation & Prototyping, Immersive Technology, Infrastructure Design & Build, Technology Sourcing & Strategic Partnerships, Virtual Production","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"},"creator":{"@type":"Organization","name":"Innovate UK Immersive Tech Network"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>The Future of Content</h1>
+<h2>What can virtual production be when you take it beyond film production?</h2>
+<p>Exploring the exciting world of virtual production and realtime content production including its impact and importance, through a series of thought pieces and panel discussions with industry experts.</p>
+<p>Client: Innovate UK Immersive Tech Network</p>
+<p>Tags: Creative Ideation &amp; Prototyping, Immersive Technology, Infrastructure Design &amp; Build, Technology Sourcing &amp; Strategic Partnerships, Virtual Production</p>
+<p>The Future of Content
+Like many ‘new’ technologies, virtual production is not entirely new, rather a more commercially viable and useful update of older techniques. The game-changing addition we see now comes from the use of video game engines that can generate realtime photorealistic 3D graphics tracked from the camera’s perspective, combined with LED screens displaying the environment, rather than traditional ‘green screens’. Now you can film, and act, in a visible environment – in realtime. Virtual production is accelerating the creative process exponentially, improving not only the visual spectacle but also the ease with which content is made and delivered to the desired audience. Furthermore, free and easily-accessible tools, such as Epic Games’ Unreal Engine and Blender, are democratising access to this groundbreaking technology.</p>
+<p>Working in realtime
+This whole space can initially appear to be overwhelming, but it shouldn’t be. As with any new technology, there are different starting points to jump into this. The most productised, and what most people know and understand virtual production to mean right now, is something called in-camera VFX, often referred to as Mixed Reality Shooting.</p>
+<p>For filmmakers, working in a ‘real’ virtual environment rather than a green screen creates a much more natural space for actors, creates natural reflections on physical objects in the space (such as the sky or a cityscape, on a vehicle or sunglasses) and takes a lot of guesswork out of the filmmaking process. It enables visual effects to be delivered live on set, significantly reducing the amount of time required on post-production. However, you need a lot more pre-production planning, which means creating new pipelines and processes. Furthermore, new techniques and capabilities are becoming more and more accessible and usable all the time, such as photogrammetry, volumetric capture and motion capture. The cost and knowledge gap is closing.</p>
+<p>When you look back to how this used to be done, this is already having an enormous impact on the filmmaking industry, and long-form episodic content, like The Mandalorian.</p>
+<p>For marketers and brands, telling stories across the ever-evolving consumer ecosystem is a challenge. From TV ads, to TikTok or Decentraland, there have never been more channels on which your brand needs to have a voice. An asset created in a realtime engine negates the need to design bespoke content for each of these channels as it can be used across all digital, and physical, media. While reusing digital assets is not impossible today, it’s not easy, and most organisations have several digital versions of one asset. By building a library of assets that can be used anywhere, brands can be free to expand their storytelling, pushing it into new channels and transforming the way they engage with their audiences.</p>
+<p>Democratising content creation
+The access to telling stories through new technologies has never been greater. The cost of producing content continues to go down, and the quality of tools has skyrocketed. This leads to much more accessible ways to create really high-quality broadcast content, making it more accessible outside of the film industry.</p>
+<p>On top of this, the consumer landscape has also drastically altered and the power to create quality content is literally in the hands of billions of people around the world, they, therefore, expect a much higher and more creative output from the ‘professionals’.</p>
+<p>When discussing new technology, Geoffrey Goodwin, Senior Creative Director &amp; Head of Studios at Yahoo Inc. says “It’s not just virtual production, I look at a TikTok and I fall off my chair half the time because they’ve launched a new filter or a new post feature that would have cost a hundred thousand pounds to do a few years ago!”</p>
+<p>This democratisation of technology is empowering. Used prolifically by game developers for years, Unreal Engine is now being used across all industries, from automotive, architecture and fashion, due to its ability to render high fidelity 3D in realtime for media and entertainment. For example, creating a CG human in the past was the preserve of specialist VFX studios in the film and video game industry, costing hundreds of thousands. Now, using MetaHuman Creator, anyone can create a photorealistic 3D human that’s fully rigged, ready to go, and can be configured any which way you want, straight out of the box. This is game-changing for content creators.</p>
+<p>Despite this leap forward in capability, there is still a job to do when it comes to upskilling professionals. Rachel Stones, Business Developer at Epic Games, says “One of the things that they get asked a lot by brands and agencies is, where do I start? To say to anyone, just clear the table, start again, is way too overwhelming. We tend to point them in the direction of a studio who can help them learn as they collaborate on a project together”.</p>
+<p>Sustainability and efficiency
+Planning as much as you can upfront is also really important for sustainability, if you want to know what your production footprint is going to look like.</p>
+<p>Jo Coombes, Project Director at AdGreen, who works with the advertising industry to measure and reduce their emissions, launched a Carbon Calculator in September. Jo explained that one of the key areas they look at is the split of emissions between an agency, a production company and a service company, and what people think of as part of the shoot. Everything that comes together in a studio on the shoot day is usually the smallest part, if there’s a lot of travel involved. Reducing travel has a massive impact on the sector’s overall footprint. According to AdGreen, based on industry data, including BAFTA and Albert, travel accounts for forty percent of the average footprint.</p>
+<p>"Content creators also need to think about the spaces they’re using and how they’re powered"</p>
+<p>Simply adopting virtual production as a technique is not enough on its own. Jo went on to say “Content creators also need to think about the spaces they’re using and how they’re powered – are they on renewable energy tariffs? What kind of work is being done to create the environment in the first place?”.</p>
+<p>Using the carbon calculator, you can record the space element, breaking it down into different areas of production. For example, with suppliers of generators, traditionally it’s always been measured based on hours, when measuring actual fuel consumption is much more accurate, which is more difficult to extract from the supplier. Preparing suppliers to provide the right information when trying to complete the footprint data is important. Using a tool to measure and quantify this compared with if you shot this for real in X country, can make a tangible difference to your footprint.</p>
+<p>If we flash forward, when a creative is at concept stage, with an idea in their mind, they will be able to start the journey in a realtime engine and create the narrative right there and then, ultimately taking you all the way through. We’re not there yet, but we will get there.</p>
+<p>Now we’re starting to talk about the user experience of data and how that can work going forward. Instead of just looking at binary numbers and spreadsheets, having data drive the visuals in a virtual world makes it a more natural and satisfying experience. A great example of this is Lume, which uses Unity, another realtime game engine, to track and monitor particles and structures at nanoscale, for the scientific community.</p>
+<p>Data is also fundamental to sustainability. AdGreen is looking carefully at what metrics we can get, and use. Albert, for example, uses emissions as the metric, for making one hour of broadcast TV. What it doesn’t account for, is the efficiencies you can realise if you run that programme multiple times, dividing the emissions by the amount of time to run.</p>
+<p>“When you have a commercial that audiences love and it delivers ROI, then you’re ready to do it again”</p>
+<p>Efficiency and storytelling 
+Stories that live on and have a continuous narrative are very common in advertising. Geoffrey notes that “When you have a commercial that audiences love and it delivers ROI, then you’re ready to do it again”. The Coca-Cola “lorry advert” that comes out every year is a good example. There’s lots you can rework to create something new. Even if you’re only using part of what you’ve created again, you’re still being more efficient than the first time around.</p>
+<p>This brings us to the concept of creating realtime characters who can then interact like any normal human can. A couple of years ago, Epic created an interactive version of John Lewis’ Edgar the Dragon in their London Lab using Unreal, an Xsens mocap suit, and a head-mounted iPhone to track facial expressions. Rachel believes that ultimately assets can have a life much further than the cuddly toys. “We will see brands creating 3D characters living outside of that content. In the same way that we look at celebrities and kind of transfix ourselves with what they do and what they wear to go shopping, we will have digital characters that will have lives and narratives that are generated around”.</p>
+<p>"Wouldn’t it be cool if a customer could walk into John Lewis and meet Edgar in-store?"</p>
+<p>The recent acceleration of remote working has massively opened up the talent pool and presented the opportunity to collaborate and co-create with a more diverse mix of individuals from across the globe. A remote writing room ten years ago would have been unacceptable. You would have to be based in LA or London. Now it’s no longer deemed necessary or productive to be in one location to create mind-blowing productions. This new way of working has the opportunity to unearth hidden voices and richly impact storytelling across the board.</p>
+<p>An area we’ll be exploring further in this series is how virtual production is also driving digital transformation, with realtime technology fundamentally changing the way businesses will operate at a functional and operational level, making them more efficient, sustainable, and creative. At Imagination, instead of building physical scale models, or printing out 3D renders, we are building 3D digital models in realtime, sharing the creative on-screen, or putting people in headsets, so they can look around, walk around and even interact with the experience. This may end up as linear content, a physical/digital experience, or purely physical, such as a building structure, or installation.</p>
+<p>“Once we get past the knowledge threshold, then it’s all about what else can you do?”</p>
+<p>What is next for virtual production?
+We are still just at the beginning of what is possible with this groundbreaking technology. Things will start to get really interesting when technology is no longer a barrier to creativity. As Rachel says “Once we get past the knowledge threshold, to the point of being comfortable, then it’s all about what else can you do?”. One thing that has already been happening, is the combination of virtual production with other technological innovations. Geoffrey, for instance, is incredibly excited to “See where volumetric capture technology can play a role in driving new types of storytelling within the space”.</p>
+<p>Besides the creative possibilities this technology offers, there is a huge moral driver we think will continue to contribute to the adoption of virtual production. With COP26 recently making headlines, sustainability is firmly on the agenda and virtual production’s sustainability credentials will only make it a more popular choice for content creators. As Jo says “It’s exciting to see people emailing us to say that they are thinking about using virtual production to reduce their carbon footprint. How do we record it? How is it better? Tell us how it works from this point of view? We can see this seeping into people’s consciousness in a way that we haven’t seen before”.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

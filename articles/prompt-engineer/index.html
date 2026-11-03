@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guide for agencies considering the emerging role of prompt engineers." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Hiring a prompt engineer? | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/prompt-engineer" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/prompt-engineer" />
+    <meta property="og:title" content="Hiring a prompt engineer? | REWI.RE" />
+    <meta property="og:description" content="Guide for agencies considering the emerging role of prompt engineers." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/prompt-engineer.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hiring a prompt engineer? | REWI.RE" />
+    <meta name="twitter:description" content="Guide for agencies considering the emerging role of prompt engineers." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/prompt-engineer.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Guide for agencies considering the emerging role of prompt engineers.","name":"Hiring a prompt engineer?","description":"Guide for agencies considering the emerging role of prompt engineers.","url":"https://rewi.re/articles/prompt-engineer","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/prompt-engineer.jpg","datePublished":"2023-05-22","keywords":"Technology Trends & Thought Leadership, Creative Ideation & Prototyping, Technology Trends & Thought Leadership, AI Prototyping & Testing, Innovation & Commercialisation","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Hiring a prompt engineer?</h1>
+<h2>Guide for agencies considering the emerging role of prompt engineers.</h2>
+<p>Guide for agencies considering the emerging role of prompt engineers.</p>
+<p>Tags: Technology Trends &amp; Thought Leadership, Creative Ideation &amp; Prototyping, Technology Trends &amp; Thought Leadership, AI Prototyping &amp; Testing, Innovation &amp; Commercialisation</p>
+<p>Below is a transcript - please click the link for the original article.</p>
+<p>Digital agencies in media and creative are starting to hire to boost their AI capabilities. We explore what skills they’re after, where they’re finding them, how they’re shaping teams and where it could lead.</p>
+<p>Strange job titles have begun to emerge in recent months. Titles like chief metaverse officer, prompt engineer or rat czar. Some – hopefully not the latter – might even become ad industry standards over the next decade as agencies work to burnish their AI credentials.</p>
+<p>Right across the industry, holding companies and indies are pursuing strategic partnerships, M&amp;A opportunities and new recruitment. The last is the least expensive and perhaps most important.</p>
+<p>While some in-demand roles were already established within the industry (software engineers, UX developers or data scientists, for example), others such as prompt engineers have added new terms to the dictionary.</p>
+<p>Indie creative shop Liberty Guild hired its first prompt engineer in March to help its creatives engage with AI applications and tools. Meanwhile, Ogilvy has established a nine-person AI lab based in Paris to advance its expertise. It’s not as simple as just posting an opening on Indeed, however. Competition for AI talent is fierce – and expensive.</p>
+<p>Salary competition</p>
+<p>Phil Tolliday, head of marketing science at GroupM Nexus, says AI skills are a “lucrative area” right now for the handful of people who hold them. But high demand means agencies are at risk of being outgunned by deep-pocketed rivals.</p>
+<p>Publicis Groupe UK’s chief product officer Ben Silcox tells us he expects agencies to struggle against the monetary “firepower” available to tech and consultancy groups. He says: “We can’t compete, in any way shape or form, with the money and wages that [consultancies] can pay for data scientists and AI engineers.”</p>
+<p>Daniel Hulme is the chief exec of London-based Satalia, an AI company acquired by WPP in 2021; he’s also the holding company’s chief AI officer. He says that agency groups can make up for that deficit by offering a better working culture than the competition. “We’ve never wanted to compete on salaries. Talent wants to work on impactful problems, with kind people, towards a positive purpose. Satalia has worked incredibly hard since its founding to cultivate a workplace of the future.”</p>
+<p>What positions are in demand?</p>
+<p>Hulme says that Satalia has been looking for expertise in “optimisation, data science, machine learning, geospatial and data engineering,” as well as machine learning and AI operational skills. Practically, he’s been looking for applicants with expertise using Python, R and SQL.</p>
+<p>For other agencies, though, new roles are being designed around key hires. Tolliday’s team has been working to recruit a “market leader” for AI work done in the UK – a position that he says would encompass “building on the work we’ve already done with key clients in that market, sit in teams building AI roadmaps, and think about how AI links together with privacy, with representation, or diversity, equity and inclusion and sustainability. And think about how we can drive that as a narrative – tell clients about it, evangelise it for internal teams. It’s a big role.”</p>
+<p>Eventually, he says, GroupM will employ similar roles in each of its key markets worldwide – not just to help translate the benefits of the agency’s AI offering to clients, but to help navigate local regulations such as Italy’s now-rescinded ban on ChatGPT.</p>
+<p>As well as emerging roles such as prompt engineers, agencies are hiring creative technologists to bolster their AI capabilities. Previously a role that encompassed experimental digital design such as AR, agencies are using casting technologists as AI pioneers within their businesses.</p>
+<p>Dan Crowder, managing director of recruitment agency Craft, says he’s helped “five or six” agencies hire creative technologists recently. “That was a job title I hadn’t heard of 12 months ago. We’re seeing a big jump specifically within retail, experiential and environmental design businesses looking at how they can use AI within a space.”</p>
+<p>Tolliday says most of the incoming candidates he’s seen have come from the tech sector. “I recruited for a role within my direct team last year, a similar kind of role for an analytics director. And at that time, it was much more difficult to source candidates. But because of the tech redundancies we’ve seen lately, we’ve seen quite a few candidates.”</p>
+<p>That will likely be the case for the medium term, he suggests. There aren’t enough people with the skills – or with a “broad enough perspective” to work for an agency – to fill such roles. “We’ve got a big educational challenge in this country in terms of actually getting the right skillsets,” he says. As an alternative to recruiting directly from the tech world, his team has begun scouting out potential hires at universities in the UK.</p>
+<p>“At the moment, we’re trying to work directly with universities, trying to engage the best candidates and bring people in from a grassroots level.”</p>
+<p>Train or hire?</p>
+<p>Because of the competition for AI roles right now, some agencies are opting to train existing staff rather than shop for new talent.</p>
+<p>Indie agency Imagination established an in-house training scheme when AI tools first began emerging. Now that generative AI tools have hit the market, group CTO Anton Christodoulou says it’s opening up that program to its creative, strategy and client management teams.</p>
+<p>So far, they’re using it to assist creatives in coming up with new campaign ideas. For more intensive projects, it’s brought in third-party companies to tool up. “We aren’t generally looking for specialist AI roles, but we are working with AI specialist companies where we need to develop a specific concept,” he explains.</p>
+<p>However they’re building them, most agencies are focusing on building up small, specialised teams that can experiment or test out new strategies and methods. Though plenty of staffers have begun using tools themselves in their everyday work, relying on a ‘many flowers’ approach has its drawbacks. BBDO recently issued a memo banning staffers from using ChatGPT and MidJourney on live work because of the risk of legal and ethical violations, for example – situations that would be easier to predict and contain within smaller teams.</p>
+<p>Hulme says that although WPP has “thousands of AI practitioners that we can leverage… I’m a huge fan of small, but high-performing teams.”</p>
+<p>Satalia itself has hired 20 AI practitioners in recent years, he says, using a “quality over quantity” approach. “You can move the needle for some of the biggest companies in the world with a team of 5 people. We’ve proven that time and time again.”</p>
+<p>Future roles</p>
+<p>Despite the volume of applications released since last year and the speed at which they’re being adopted, we’re still in the earliest stages of AI adoption in advertising. And with roles currently commanding high salaries, some agencies are choosing to bide their time.</p>
+<p>Indie performance media agency DAC UK, for example, has used AI expertise for years, in the form of machine learning and media bidding. It hasn’t had to hire out-and-out AI specialists to build up that specialty, but managing director Mike Fantis says it’s considering changing that stance down the line.</p>
+<p>“It’s not something that has caught us on the hop. In the future though, I feel we’re going to have an AI researcher role,” he says, saying that position could involve using AI research tools to discover and fact-check new strategic insights on behalf of the wider team. “Though we’re not hiring for it right now, I see a place for that.”</p>
+<p>Christodoulou says that he expects to begin hiring directly for AI skills within the next couple of years, particularly into Imagination’s data science team. “I can see us building out that department, adding someone who’s maybe a data specialist with an AI specialism.” Those will likely remain hybrid roles in the short term, though. “It’s useful to have somebody that is a sort of specialist in generative AI, but I’m not sure having somebody purely as an AI specialist makes sense.”</p>
+<p>Over the longer term, Tolliday suggests prompt engineers and other AI ‘operator’ roles will become normal within the industry. Right now, most of GroupM Nexus’ AI focus is on developing predictive algorithms for media bidding. But Tolliday says it’s developing new ways of working with generative tools, and he believes this form of AI will wreak “another post-industrial revolution” within and beyond advertising.</p>
+<p>“Generative will drive a massive explosion of jobs. But as we’ve seen with other technology in the past, I think we’re going to see potentially more inequality in terms of the job market,” he says. “Prompt engineers will be a massive job in the future,” but many roles in the “middle” of the current hierarchy will be removed, he predicts. “The key thing will be people in charge of AI systems, acting as the operator of the relevant applications.”</p>
+<p>Fantis suggests that the shift might not generate new roles outright, but simply lead to hiring fewer people into contemporary positions. “Take search,” he says. “Looking at search queries isn’t a very glamorous job but someone’s got to do it. Even if an AI is going to help you do that you’ll still need to oversee it. And you probably get a junior or someone who’s learning to do that.</p>
+<p>“I think that job role will exist, but maybe instead of two or three juniors, you’ll just have one because the AI can churn out the work quicker for you.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

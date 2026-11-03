@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Digital Line spoke to Anton about his thoughts around the evolving technology landscape." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Beyond Imagination | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/beyond-imagination" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/beyond-imagination" />
+    <meta property="og:title" content="Beyond Imagination | REWI.RE" />
+    <meta property="og:description" content="The Digital Line spoke to Anton about his thoughts around the evolving technology landscape." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/beyond-imagination.gif" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Beyond Imagination | REWI.RE" />
+    <meta name="twitter:description" content="The Digital Line spoke to Anton about his thoughts around the evolving technology landscape." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/beyond-imagination.gif" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The evolving technology landscape for experiences","name":"Beyond Imagination","description":"The Digital Line spoke to Anton about his thoughts around the evolving technology landscape.","url":"https://rewi.re/articles/beyond-imagination","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/beyond-imagination.gif","keywords":"Future Technologies, Virtual Reality, Creative Ideation & Prototyping, Immersive Technology, AI Prototyping & Testing, Technology Trends & Thought Leadership, Technology Sourcing & Strategic Partnerships","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"},"creator":{"@type":"Organization","name":"The Digital Line"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Beyond Imagination</h1>
+<h2>The evolving technology landscape for experiences</h2>
+<p>The Digital Line spoke to Anton about his thoughts around the evolving technology landscape.</p>
+<p>Client: The Digital Line</p>
+<p>Tags: Future Technologies, Virtual Reality, Creative Ideation &amp; Prototyping, Immersive Technology, AI Prototyping &amp; Testing, Technology Trends &amp; Thought Leadership, Technology Sourcing &amp; Strategic Partnerships</p>
+<p>Anton Christodoulou is Group Chief Technology Officer for Imagination, an independent agency that focuses on business transformation through creativity and technology.</p>
+<p>Responsible for the company’s technology strategy, Anton has over 20-years’ experience working in some of the world’s most dynamic companies, including Walt Disney, Seagram and British Telecom.</p>
+<p>We spoke to Anton about his thoughts around the evolving technology landscape.</p>
+<p>Imagination is a privately-owned company founded almost 50 years ago that works under the philosophy of “Transforming business through creativity”.</p>
+<p>“Being a privately-owned business helps us being even more impartial in our approach to technology,” Global CTO Anton C E Christodoulou assures me as we begin our conversation. “As a creative agency, we have no allegiances to any particular brand, partner or technology, ensuring we deliver the very best services to our clients.”</p>
+<p>With an impressive roster of clients, including MLB, NFL, Harvey Nichols, Canon, Shell, Ford, Jaguar Land Rover and Rolls Royce, Imagination has a tradition of working with some of the premium companies in the corporate world but their approach remains personal and individual.</p>
+<p>Anton is 4 years into his role as CTO, working with the CIO to source and deliver tech and innovation, both to the business and for the clients.</p>
+<p>“We have a great roster of tech partners, including the likes of HTC and Dell and my role is all about keeping us on trend or where necessary even ahead of the curve.”</p>
+<p>“Without question. These are two very different experiences but both offer individual elements that the other cannot. VR takes you away from your world and AR enhances the one you are living in.”</p>
+<p>But in a world that is changing so fast and will only evolve even faster over the coming years, how difficult can that challenge be?“The biggest shifts are yet to come but we can predict many of them just by looking at emerging technology. Some of the most exciting areas are around virtual reality (VR) and augmented reality (AR) creating limitless creative opportunities, combined with artificial intelligence (AI) to provide real-time feedback and create rich simulations, and Blockchain to ensure transparency and authenticity. We recently worked with the likes of Jaguar Land Rover, Ford, MLB and Shell to deliver unique experiences using some of these solutions and the results were very well received.”</p>
+<p>The predicted pathways for both these technologies suggest slightly different adoption rates – with AR set to gain more market share than VR – but does he feel each has a place in the digital world of tomorrow?</p>
+<p>“Without question. These are two very different experiences but both offer individual elements that the other cannot. VR takes you away from your world and AR enhances the one you are living in.”</p>
+<p>“VR is more immersive and though it can be social, replaces reality and operates in an environment without rules. AR is the bigger of the two concepts because it supplements reality by changing your physical environment but offers a wealth of possibilities. My personal belief is that AR will be ubiquitous in a fairly short space of time.</p>
+<p>“VR and AR headsets will become wireless and allow for greater free roaming and in turn they will most likely transform into something more akin to conventional glasses.”</p>
+<p>So, what does he believe will change about the world around us in the next few years?</p>
+<p>“I think more and more of the physical elements we take for granted now will eventually disappear. For instance, I believe the days of conventional screens are numbered.</p>
+<p>“Over the next 10-15 years we will also see a dramatic change in mobile phones and I believe they will become voice and gesture activated and evolve alongside AR and VR to become integrated into something like spectacles.”</p>
+<p>The dramatic reduction of physical assets in favour of digital versions is only going to accelerate. Forty years ago, the home computer didn’t exist but just over thirty years later it was universally accepted by homes all over the world and already coming under threat from the first smartphones. As an example of the pace of change, does he feel we will be able to keep up with the emerging tech or is it likely to evolve faster than we do?</p>
+<p>“We’re now entering the realm of speculation but if you address that example and then understand that technology is developing exponentially it becomes a valid argument.</p>
+<p>“Returning to the topic of AR and AI for a moment, I can envisage a time when this technology will give us something akin to superpowers.</p>
+<p>“Imagine a pair of specially engineered glasses that would allow you to look at someone in a room and feedback information on them via a series of specifically created algorithms, so that you immediately have an advantage over everyone else around you. Being able to read people’s emotional responses in real-time, for example, as well as accessing personalised information on them.</p>
+<p>“Perhaps extended exposure to this tech would somehow unlock unused areas of our brains and eventually allow us to become smarter rather than subscribe to the theory many people have that technology is just making us less smart.</p>
+<p>“Rather than becoming dependent upon it maybe we can evolve alongside with it?”</p>
+<p>Is his vision for the future a positive one?</p>
+<p>“I believe it is a future full of possibilities and we need to allow the pioneers seeking to explore and understand it the freedom to express themselves.</p>
+<p>“That isn’t to say we don’t need to be sensible and careful in our approach but as we move from mobile to AR and the traditional screens disappear, we could see a “tomorrow” where we spend long periods of our day in a mixed reality world rather than purely a real one, and the impact it could have on us as humans will be even more relevant.”</p>
+<p>Illustration: Fausto Montanari</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

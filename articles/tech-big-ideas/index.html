@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="How technology enables creative vision and innovation in experience design." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Bringing big ideas to life | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/tech-big-ideas" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/tech-big-ideas" />
+    <meta property="og:title" content="Bringing big ideas to life | REWI.RE" />
+    <meta property="og:description" content="How technology enables creative vision and innovation in experience design." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/tech-big-ideas.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bringing big ideas to life | REWI.RE" />
+    <meta name="twitter:description" content="How technology enables creative vision and innovation in experience design." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/tech-big-ideas.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How technology enables creative vision and innovation in experience design.","name":"Bringing big ideas to life","description":"How technology enables creative vision and innovation in experience design.","url":"https://rewi.re/articles/tech-big-ideas","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/tech-big-ideas.jpg","datePublished":"2023-09-26","keywords":"AI Prototyping & Testing, Creative Ideation & Prototyping, Experience Design, Immersive Technology, Innovation & Commercialisation, Technology Trends & Thought Leadership, Technology Sourcing & Strategic Partnerships","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Bringing big ideas to life</h1>
+<h2>How technology enables creative vision and innovation in experience design.</h2>
+<p>How technology enables creative vision and innovation in experience design.</p>
+<p>Tags: AI Prototyping &amp; Testing, Creative Ideation &amp; Prototyping, Experience Design, Immersive Technology, Innovation &amp; Commercialisation, Technology Trends &amp; Thought Leadership, Technology Sourcing &amp; Strategic Partnerships</p>
+<p>First published in Campaign Middle East - please click the link for the original article.</p>
+<p>How can a company that believes that anything is possible use technology to bring big ideas to life, without stifling creativity or costing our clients the earth?</p>
+<p>The challenge for us, and indeed for any company striding out for digital transformation, is how to execute this in a way that is cost effective, scalable, secure and, most importantly, actually works.</p>
+<p>Our transformation journey hinged on addressing some key challenges, and opportunities:</p>
+<p>Integrating diverse disciplines
+Throughout our history, technology has played a powerful and interesting role.</p>
+<p>Integrating technology into a creative-first organisation required that we did just that: integrate. We focused on finding ways to embed technology into our creative work in useful and meaningful ways, not as a novelty add-on.</p>
+<p>It is often the technology that you cannot see that is powering some of the most memorable moments.</p>
+<p>The advent of technologies such as realtime gaming engines, VR, AR, and generative AI, is transforming our internal creative workflow, which in turn is bringing our creative and technical disciplines even closer together, and even creating brand new roles.</p>
+<p>Building a creative toolkit
+Creative organisations that pride themselves on creating fresh and new ideas might shy away from the idea of ‘repeatability’ – so deciding what can be repeated without compromising creativity is key to a successful outcome.</p>
+<p>What Imagination needed was a creative toolkit. A set of related but flexible technology tools to connect common elements of every experience at key stages. If they are common, there is no need for a creative way to do this.</p>
+<p>In fact, just the opposite – there needs to be a very specific way that is also easily repeatable across every experience.</p>
+<p>This unlocks rather than restricts creativity, as no single component is dependent on another, so the customer journey remains completely flexible. You only use the specific tool for the job, as and when you need it.</p>
+<p>Connected Experience Playbook
+A technology platform is only useful if it is grounded and capable of translating complex customer journeys into a set of repeatable components, without introducing significant technological overheads.</p>
+<p>Applied through the lens of the end-user, we developed a simple to understand and non-technical process to define what is required to deliver each component and touchpoint in every customer journey.</p>
+<p>By applying Imagination’s extensive knowledge and innate understanding of experience design, we were able to codify our approach.</p>
+<p>Many tools already existed on the market to perform some of the specific functions we required. In fact, we retired a lot of code that had previously been developed in-house.</p>
+<p>In our industry, one of the most important and critical ongoing components is the need to innovate, by putting Imagination into practise every day, in order to empower and inspire our teams and our clients, and demonstrate how we bring big ideas to life.</p>
+<p>Our approach to this was the formation of Imagination Labs, our global innovation programme, and the physical and digital spaces we have created, so that we can always continue to experiment and learn.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?" />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Beyond Rankings | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/redefining_uni_success_in_the_ai_era" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/redefining_uni_success_in_the_ai_era" />
+    <meta property="og:title" content="Beyond Rankings | REWI.RE" />
+    <meta property="og:description" content="University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?" />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/redefining-uni-success-in-the-ai-era.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Beyond Rankings | REWI.RE" />
+    <meta name="twitter:description" content="University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?" />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/redefining-uni-success-in-the-ai-era.webp" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Redefining University Success in the AI-Era","name":"Beyond Rankings","description":"University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?","url":"https://rewi.re/articles/redefining_uni_success_in_the_ai_era","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/redefining-uni-success-in-the-ai-era.webp","datePublished":"2025-07-01","keywords":"AI Prototyping & Testing, Creative Ideation & Prototyping, Innovation & Commercialisation, Innovation Programmes, Technology Trends & Thought Leadership","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Beyond Rankings</h1>
+<h2>Redefining University Success in the AI-Era</h2>
+<p>University rankings have long been a trusted, if controversial, proxy for quality. Students use them to decide where to study. Policymakers use them to shape funding. Universities use them to benchmark themselves against competitors. But in an AI-powered world, are these rankings still measuring what matters?</p>
+<p>Tags: AI Prototyping &amp; Testing, Creative Ideation &amp; Prototyping, Innovation &amp; Commercialisation, Innovation Programmes, Technology Trends &amp; Thought Leadership</p>
+<p>Foreword by Anton Christodoulou
+(Rewi.re Founder, and Governor at the London School of Innovation)</p>
+<p>Somayeh aptly states "We are not simply in an era of change. We are in a change of era."</p>
+<p>We stand at the threshold of an era defined not by knowledge scarcity but by intelligent systems that can generate, adapt, and scale knowledge at unprecedented speed. The university's role is to prepare learners not for a fixed destination, but for perpetual adaptation. Yet the dominant metrics remain stubbornly tied to an outdated paradigm, increasingly ill-suited to this challenge.</p>
+<p>On a recent podcast with Theo Von, OpenAI's CEO, Sam Altman stated, "My kid will never ever be smarter than an AI... they'll never know a world where products and services aren't way smarter than them and super capable... in that world, education is going to feel very different. I already think college is like maybe not working great for most people... fast forward 18 years, it's going to look like a very, very different thing."</p>
+<p>So, this article is not just a provocation, it is a necessary intervention. This is an urgent call to action for all who believe that we need to look at this challenge now through a new lens. Assessing university success as being grounded in adaptability, digital literacy, ethical impact, and student agency. These are not abstractions. They are the very qualities our graduates, and our society, will depend on in the decades ahead.</p>
+<p>As leaders and educators, we must confront these questions head-on.</p>
+<p>Below is a transcript - please click the link for the original article.</p>
+<p>If we’ve learned anything from the world of business over the last decade, it’s this: measuring the wrong things can lead even the most successful organisations astray. The tech industry, in particular, has seen numerous examples of companies optimising for vanity metrics (likes, downloads, growth at all costs) only to realise too late that these metrics didn’t align with real value creation.</p>
+<p>The metrics we choose to measure today will shape the universities we get tomorrow.</p>
+<p>The Problem with Today’s Rankings</p>
+<p>Current university ranking systems, whether national or global, tend to rely on a familiar set of indicators:
+Research volume and citations
+Academic and employer reputation surveys
+Faculty-student ratios
+International staff and student presence
+Graduate salary data
+Student satisfaction and completion rates</p>
+<p>While these factors offer a snapshot of institutional performance, they often fail to reflect the complex reality of the world. A university may rise in the rankings even as it fails to respond to student needs, workforce realities, or societal challenges.</p>
+<p>For example, graduate salary data may tell us something about economic outcomes, but very little about the long-term adaptability or purpose-driven success of those graduates or their impact on improving society. Research citations measure academic influence, but not whether the research is solving real-world problems. Reputation surveys tend to reward legacy and visibility, not innovation or inclusivity.</p>
+<p>In short, they anchor universities to a model optimised for the industrial era, not the intelligence era.</p>
+<p>Ready for the AI paradigm?</p>
+<p>Artificial Intelligence is a paradigm shift that is changing what we value in all aspects of life including education, especially higher education, how we define learning, what we want as an outcome, and how we measure success.</p>
+<p>In a world where knowledge is increasingly accessible, and where intelligent systems can generate information, summarise research, and tutor students, the role of a university shifts from delivering knowledge or developing skills to curating learning experiences focusing on developing humans’ adaptability, and preparing students, and society, for uncertainty.</p>
+<p>This means the university of the future must focus less on scale, tradition, and prestige, and more on relevance, adaptability, and ethical leadership. These are harder to measure, but far more important.
+This demands a new value system. And with that, a new approach to how we assess institutional success.</p>
+<p>What Should We Be Measuring?</p>
+<p>As we rethink what universities are for, we must also rethink how we assess their impact. Inspired by the “measure what matters” philosophy from business strategy, we need new metrics that reflect AI-era priorities. These could include:</p>
+<p>1. Adaptability: How quickly and responsibly does an institution respond to societal, technological, and labour market shifts? This could be measured by:
+Curriculum renewal cycle: Time between major curriculum updates in response to new tech or societal trends.
+New programme launches: Number and relevance of AI-, climate-, or digital economy-related courses introduced in the last 3 years.
+Agility audits: Internal audits of response times to regulatory or industry change (e.g., how quickly AI ethics is integrated into professional courses).
+Employer co-designed modules: % of programmes co-developed with industry or public sector partners.</p>
+<p>2. Student agency: Are students empowered to shape their own learning paths, engage with interdisciplinary challenges, and co-create knowledge?  This could be measured by:
+Interdisciplinary enrolment: % of students engaged in flexible, cross-departmental study pathways.
+Student-designed modules/projects: Number of modules that allow student-led curriculum or research projects.
+Participation in governance: % of students involved in academic boards, curriculum design panels, or innovation hubs.
+Satisfaction with personalisation: Student survey responses (e.g., NSS, internal pulse surveys) on flexibility and autonomy in learning.</p>
+<p>3. AI and digital literacy: To what extent are institutions preparing their staff and their graduates for a world where AI is embedded in every profession? This could be measured by:
+Curriculum integration: % of degree programmes with AI/digital fluency embedded as a learning outcome.
+Staff development: Hours or participation rates in AI-focused CPD for academic and support staff.
+AI usage in teaching and assessment: Extent of AI-enabled platforms, feedback systems, or tutors in active use.
+Graduate outcomes: Employer feedback or destination data reflecting readiness for digital-first/AI-ready roles.</p>
+<p>4. Contribution to local and global challenges: Are research efforts aligned with pressing societal needs amplified with advancements of AI such as social justice, or the AI divide? This could be measured by:
+UN SDG alignment: % of research/publications mapped to UN Sustainable Development Goals.
+AI-for-good projects: Number of AI projects tackling societal or environmental issues.
+Community partnerships: Active partnerships with local authorities, civic groups, or NGOs on social challenges.
+Policy influence: Instances where university research or expertise shapes public policy (e.g. citations in white papers or select committees).</p>
+<p>5. Wellbeing and belonging: How well are staff and students supported to thrive, not just perform, within the institution? This could be measured by:
+Staff/Student wellbeing index: Use of validated tools like the WEMWBS (Warwick-Edinburgh Mental Wellbeing Scale) in internal surveys.
+Use of support services: Uptake and satisfaction rates for mental health, EDI, and financial support services.
+Sense of belonging scores: Survey data on inclusion, psychological safety, and campus climate.
+Staff retention and engagement: Turnover data, satisfaction from staff pulse surveys, or exit interviews.</p>
+<p>These are not soft metrics. They are foundational indicators of whether a university is truly fit for purpose in a volatile and AI-transformed world. You could call this a “University Fitness for Future Index”, a system that doesn’t rank but reveals how well an institution is evolving, and as a result its academics, staff and students are adapting to a rapidly changing world.</p>
+<p>From Status to Substance</p>
+<p>Universities must now face the uncomfortable but necessary task of redefining their identity and purpose. Those who focus solely on preserving status will struggle. Those who embrace the opportunity to lead with substance – authenticity, impact, innovation – have a chance to thrive.</p>
+<p>AI will not wait for the sector to catch up. Students, staff, employers, and communities are already asking deeper questions: Does this university prepare me for an unpredictable future? Does it care about the society I will enter after graduation? Is it equipping us to lead with courage and ethics in an AI-powered world?</p>
+<p>These are the questions that matter. And increasingly, they should be the ones that will shape how institutions are evaluated, regardless of their position in the league tables.</p>
+<p>It’s time we evolve our frameworks to reflect what really counts, that increasingly will be defined by usefulness, purpose, and trust.</p>
+<p>A Call for Courage</p>
+<p>We are not simply in an era of change. We are in a change of era.</p>
+<p>If we are serious about preparing our learners, and our society, for a world defined by intelligent systems, we must also be serious about redesigning the system that educates them.</p>
+<p>That means shifting from prestige to purpose. From competition to contribution. From reputation to relevance.</p>
+<p>Because the institutions that will lead the future are not necessarily those that top today’s rankings.</p>
+<p>They are the ones willing to ask: what truly matters now and are we brave enough to measure it?</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The ethical implications and societal impacts of AI-powered facial recognition technology." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>Facial recognition, Society &amp; AI | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/facial-recognition" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/facial-recognition" />
+    <meta property="og:title" content="Facial recognition, Society &amp; AI | REWI.RE" />
+    <meta property="og:description" content="The ethical implications and societal impacts of AI-powered facial recognition technology." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/facial-recognition.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Facial recognition, Society &amp; AI | REWI.RE" />
+    <meta name="twitter:description" content="The ethical implications and societal impacts of AI-powered facial recognition technology." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/facial-recognition.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The ethical implications and societal impacts of AI-powered facial recognition technology.","name":"Facial recognition, Society & AI","description":"The ethical implications and societal impacts of AI-powered facial recognition technology.","url":"https://rewi.re/articles/facial-recognition","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/facial-recognition.jpg","datePublished":"2019-10-23","keywords":"Technology Trends & Thought Leadership, Privacy By Design, Technology Trends & Thought Leadership, AI Prototyping & Testing, Visitor Insights & Flow Optimisation, Engagement Impact Analysis","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>Facial recognition, Society &amp; AI</h1>
+<h2>The ethical implications and societal impacts of AI-powered facial recognition technology.</h2>
+<p>The ethical implications and societal impacts of AI-powered facial recognition technology.</p>
+<p>Tags: Technology Trends &amp; Thought Leadership, Privacy By Design, Technology Trends &amp; Thought Leadership, AI Prototyping &amp; Testing, Visitor Insights &amp; Flow Optimisation, Engagement Impact Analysis</p>
+<p>First published in City A.M. - please click the link above for the original article.</p>
+<p>As facial recognition technology becomes more sophisticated and widespread, it raises significant concerns about privacy, security, and civil liberties.</p>
+<p>Facial recognition is a powerful tool, transforming the way we live. Legislation and regulation is required to ensure that it is implemented within the right privacy framework, and the boundaries of its use are clearly defined and enforced. Once regulated, and if it is implemented with privacy at the forefront, then we will all be able to enjoy the benefits to their full effect.</p>
+<p>##Below is a transcript. Please click the link above for the original article. </p>
+<p>Facial recognition software feels like it has stepped out of the realms of science fiction and into reality.</p>
+<p>Thanks to massive developments in artificial intelligence (AI), cameras and surveillance systems can now check and analyse someone’s facial features in real time.</p>
+<p>This is a profound step forward in the realms of biometric security, and major tech companies like Amazon, Microsoft, and IBM have started selling such systems.</p>
+<p>The technology has huge potential to help with policing and crime prevention. Recording a face in a crowd and checking it against a watchlist of suspects could potentially prevent acts of terrorism or violence. It is already in use by police forces in some countries, and even in schools in the US in the hope of preventing active shooter situations.</p>
+<p>It could also boost productivity in other sectors of the economy. Airports have been using facial recognition software for years to speed up passport checks, leading to a more convenient experience for travellers.</p>
+<p>Similarly, the analyst firm CCS Insight predicts that, within a few years, organisations like football clubs will adopt facial recognition ticketing systems, allowing ticket-holders to gain entry to an event more quickly, while enabling staff to identify possible troublemakers.</p>
+<p>And there are plenty more potential applications, from use in recruitment to retail, which sound fantastic on paper. But if we’re not careful, the technology poses a threat to our personal privacy and civil liberties – fundamental principles of society.</p>
+<p>For a start, facial recognition’s ability at present to identify individuals is far from perfect, especially those from minority communities.</p>
+<p>Civil liberties groups in the US, concerned that the software will lead to more false arrests, have highlighted how Amazon’s cloud-based Rekognition wrongly identified 28 non-white members of Congress and two dozen professional athletes as people who had committed crimes.</p>
+<p>Meanwhile, a recent study from the University of Colorado Boulder found that several facial recognition platforms regularly misidentify trans and non-binary people.</p>
+<p>Work is underway to address these inaccuracies. Nick McQuire, head of enterprise and AI research at CCS Insight, predicts that a new industry will emerge to tackle the biases that may be causing these mistakes.</p>
+<p>“The need to resolve these data and compliance challenges will spark the emergence of firms such as algorithmic auditors and companies that help source high-quality, diverse and unbiased training data,” he says.</p>
+<p>Algorithmic auditors may sound like characters from sci-fi, but these kinds of businesses are already emerging, according to McQuire, who cites O’Neil Risk Consulting and DefinedCrowd as examples.</p>
+<p>However, even if the tech worked perfectly, the implications are immensely worrying.</p>
+<p>Its use by government authorities, especially in mainland China, has raised fears that individuals – perhaps taking part in a peaceful demonstration – could be picked out of a crowd, followed, and punished at a later point. This threat of repercussions has forced protesters in Hong Kong to use face paint and masks to avoid being identified by AI-enabled cameras.</p>
+<p>Fearing the impact on civil liberties, several US cities, including San Francisco, have placed bans on the tech. And earlier this year, Amazon had to face down a rebellion by shareholders who wanted to block it from selling Rekognition to US police forces.</p>
+<p>Here in the UK, a developer faced a similar backlash after admitting to using facial recognition surveillance at the King’s Cross Estate, while the use of the technology by police in south Wales is being challenged in the courts.</p>
+<p>Defenders of facial recognition technology point to the public acceptance of CCTV, which has been used for decades for security and crime prevention. But while CCTV simply records video which later has to be checked by a human, facial recognition software can identify and keep track of an individual’s face, analyse the data, and store it in a database – without the person’s consent or even knowledge.</p>
+<p>And it’s not just police and security forces who could exploit the ability to identify and track any individual caught on camera. Andrew Liles, chief technology officer at experience agency Tribal Worldwide London, gives me just one chilling example of how private companies could misuse this data.</p>
+<p>“A social media platform has filed a patent to tell a retailer something about a customer who is in their shop,” he says.</p>
+<p>“They do this by finding the person based on their social profile – perhaps they can guess your income bracket and what you have searched for beforehand. It could reveal that information to the retailer, and you’d be none the wiser. That’s scary.”</p>
+<p>Clearly, facial recognition offers new potential for private organisations to collect huge amounts of sensitive personal data without individual consent.</p>
+<p>No technology is inherently good or evil – the problem lies in how it is used. Rules and regulations are needed to prevent both governments and companies from abusing facial recognition software.</p>
+<p>And, indeed, due to fears about the risk of its misuse, the European Commission is planning legislation that will extend the general data protection regulation (GDPR) to cover AI, and give EU citizens explicit rights over the use of their facial recognition data – which is a good start. The key will be ensuring the protection of consumers without stifling innovation.</p>
+<p>“Facial recognition is a powerful tool, transforming the way we live,” says Anton Christodoulou, group chief technology officer at experience agency Imagination.</p>
+<p>“Legislation and regulation is required to ensure that it is implemented within the right privacy framework, and the boundaries of its use are clearly defined and enforced. Once regulated, we will all be able to enjoy the benefits to their full effect.”</p>
+<p>Some companies are already trying to get ahead of any new regulations. Amazon’s Jeff Bezos revealed in September that the company has its own public policy team working on proposals which it hopes governments will adopt, although politicians and activists are likely to balk at the idea of trusting big tech to write its own rules. Expect more scrutiny on these companies and their efforts in the near future.</p>
+<p>Facial recognition has developed incredibly fast, perhaps faster than regulators and governments know how to deal with. The big tech companies will need to work with them, as well as the new breed of AI-auditors, to address the risks to privacy, consent, and civil liberties.</p>
+<p>Otherwise, we risk stumbling into a science-fiction dystopia, rather than a technological paradise.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>

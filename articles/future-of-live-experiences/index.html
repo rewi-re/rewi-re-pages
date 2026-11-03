@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences." />
+    <meta name="theme-color" content="#68cedc" />
+    <title>The Future of Live Experiences | REWI.RE</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Open Graph / Twitter defaults. Per-page values are injected at the edge
+         for crawlers (netlify/edge-functions/og-meta.ts) and set client-side by
+         react-helmet-async for browsers. -->
+
+    <!-- Structured data: lets search and AI engines resolve REWI.RE as an entity -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://rewi.re/#organization",
+            "name": "REWI.RE",
+            "url": "https://rewi.re/",
+            "logo": "https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/logo.png",
+            "description": "Experience design and creative technology practice building immersive physical-digital experiences."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rewi.re/#website",
+            "url": "https://rewi.re/",
+            "name": "REWI.RE",
+            "publisher": { "@id": "https://rewi.re/#organization" },
+            "inLanguage": "en-GB"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
+    <link id="font-css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" media="print" nonce="RUNTIME_NONCE" />
+    <script nonce="RUNTIME_NONCE">
+      document.getElementById('font-css').addEventListener('load', function() { this.media = 'all'; });
+    </script>
+
+    <!-- Preload Supabase connection -->
+    <link rel="preconnect" href="https://dhqvfqbjomlbupcfatxz.supabase.co" crossorigin />
+
+    <!-- Critical CSS -->
+    <style nonce="RUNTIME_NONCE">
+      /* Minimal critical CSS for initial render */
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #fff;
+        color: #1A1A1A;
+        font-family: Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .dark body {
+        background: #0A0A0A;
+        color: #fff;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading spinner */
+      .loading {
+        display: flex;
+        align-items: center;
+        justify-center: center;
+        min-height: 100vh;
+      }
+      .loading::after {
+        content: '';
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #68cedc;
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <!-- Preload critical JavaScript -->
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHsgU3RyaWN0TW9kZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgY3JlYXRlUm9vdCB9IGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwoKaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7CmltcG9ydCB7IHJlcG9ydFdlYlZpdGFscyB9IGZyb20gJy4vbGliL3dlYi12aXRhbHMnOwppbXBvcnQgJy4vaW5kZXguY3NzJzsKCi8vIFVzZSBjcmVhdGVSb290IEFQSQpjb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7CmlmICghcm9vdEVsZW1lbnQpIHRocm93IG5ldyBFcnJvcignRmFpbGVkIHRvIGZpbmQgdGhlIHJvb3QgZWxlbWVudCcpOwoKY29uc3Qgcm9vdCA9IGNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpOwoKLy8gUmVuZGVyIHdpdGggU3RyaWN0TW9kZQpyb290LnJlbmRlcigKICA8U3RyaWN0TW9kZT4KICAgIDxBcHAgLz4KICA8L1N0cmljdE1vZGU+Cik7CgovLyBUcmFjayBDb3JlIFdlYiBWaXRhbHMgKEZDUCwgTENQLCBDTFMsIElOUCwgVFRGQikKcmVwb3J0V2ViVml0YWxzKCk7Cg==" as="script" type="module" nonce="RUNTIME_NONCE" />
+    <script type="module" crossorigin src="/assets/index-DLdMw7Nz.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D6wNWRsb.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-motion-BbZDRZaZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DugcgNL2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-D_u4Qf4I.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-mePoRjy5.css">
+  <link rel="manifest" href="/manifest.webmanifest"><link rel="canonical" href="https://rewi.re/articles/future-of-live-experiences" />
+    <meta property="og:site_name" content="REWI.RE" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rewi.re/articles/future-of-live-experiences" />
+    <meta property="og:title" content="The Future of Live Experiences | REWI.RE" />
+    <meta property="og:description" content="Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences." />
+    <meta property="og:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-live-experiences.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Future of Live Experiences | REWI.RE" />
+    <meta name="twitter:description" content="Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences." />
+    <meta name="twitter:image" content="https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-live-experiences.jpg" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What can virtual production be when you take it beyond film production?","name":"The Future of Live Experiences","description":"Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences.","url":"https://rewi.re/articles/future-of-live-experiences","image":"https://dhqvfqbjomlbupcfatxz.supabase.co/storage/v1/object/public/images/images/articles/future-of-live-experiences.jpg","keywords":"Creative Ideation & Prototyping, Immersive Technology, Infrastructure Design & Build, Technology Trends & Thought Leadership, Technology Sourcing & Strategic Partnerships, Virtual Production","publisher":{"@type":"Organization","name":"REWI.RE","url":"https://rewi.re"},"creator":{"@type":"Organization","name":"Innovate UK Immersive Tech Network"}}</script>
+  </head>
+  <body>
+    <div id="root">
+      <main><h1>The Future of Live Experiences</h1>
+<h2>What can virtual production be when you take it beyond film production?</h2>
+<p>Exploring the impact and importance of virtual production and realtime content production through a series of thought pieces and panel discussions with industry experts. Second in the series, Anton Christodoulou looks at how this new technique will transform the future of live experiences.</p>
+<p>Client: Innovate UK Immersive Tech Network</p>
+<p>Tags: Creative Ideation &amp; Prototyping, Immersive Technology, Infrastructure Design &amp; Build, Technology Trends &amp; Thought Leadership, Technology Sourcing &amp; Strategic Partnerships, Virtual Production</p>
+<p>Introduction
+Virtual production techniques are most often associated with the creation of linear content for film and TV,  and increasingly for brand marketing, however, the potential of this technology extends far beyond this. Anton Christodoulou, Group CTO at Imagination, is joined by a panel of industry experts, to explore what happens when the virtual world meets physical spaces, and how this can transform the world of live experiences to create next-level entertainment!</p>
+<p>How can realtime transform live experiences?
+The most familiar use of virtual production for live experiences is when the audience is watching remotely through a screen, with a blend of physical and digital elements used in realtime to enhance the overall experience and maximise the creative opportunity.</p>
+<p>Introduction
+Virtual production techniques are most often associated with the creation of linear content for film and TV,  and increasingly for brand marketing, however, the potential of this technology extends far beyond this. Anton Christodoulou, Group CTO at Imagination, is joined by a panel of industry experts, to explore what happens when the virtual world meets physical spaces, and how this can transform the world of live experiences to create next-level entertainment!</p>
+<p>How can realtime transform live experiences?
+The most familiar use of virtual production for live experiences is when the audience is watching remotely through a screen, with a blend of physical and digital elements used in realtime to enhance the overall experience and maximise the creative opportunity.</p>
+<p>The next level is the ability to watch a live performance in real life (IRL), that blends physical elements with virtual content in realtime, opening up even more boundary-pushing opportunities. Using realtime technologies in front of a live physical audience brings with it huge potential, and a number of challenges.</p>
+<p>Virtual Live Experiences
+Arguably simpler and easier to execute, this is closely associated with live product launches and reveals for automotive brands such as Ford, BMW and GM. Take a look at this Ford event from last year (watch the full video here):</p>
+<p>The main benefit of this approach is the ability to create a much richer and more engaging experience compared with a standard virtual broadcast or zoom call. With everything being done in pre-production, content with high production values and special effects can be broadcast live, or “as live”, by preparing key elements of the experience and recording content a few hours or days before it is broadcast. Brands and agencies are only just getting to grips with what is possible and the benefits this brings.</p>
+<p>In Real Life Experiences
+In terms of the creative possibilities and audience impact, virtual production really comes to life when it is delivered in person. IRL experiences can work by using an LED screen to broadcast the virtual assets which interact with physical elements live on stage – be that performers or even the audience, combined with other technologies such as gesture and voice recognition, motion and volumetric capture, realtime soundscapes and even smell . The broadcast experience is also destined to be richer and more engaging, with many more opportunities for audience interaction, be it physically or virtually. This is the cutting edge of what is possible for live experiences. Head to The Outernet on London’s Tottenham Court Rd for a glimpse of this exciting future!</p>
+<p>The Opportunities and Challenges 
+Getting to grips with how in-the-moment virtual production works in this context comes with many unique challenges, while opening up a new world of opportunities to do things very differently.</p>
+<p>Supercharged Engagement
+The creative flexibility is extremely exciting when imagining it applied to the bastions of live experiences – festivals, theatres and arenas. What could happen when using virtual production to create hyper-engaging experiences that interact with the live physical, and digital, audience? “Creating something much richer than just filming or broadcasting a performance  – not just simply watching people on stage. It’s not about trying to re-create a live experience, it’s about ripping up the rulebook and doing something new” says Tishura Khan, Creative Technology Manager at the Outernet.</p>
+<p>It’s possible to create a live environment that responds to audience interaction in realtime, extending the set to blur the lines between virtual and real for a fully immersive experience. Referring back to classic science fiction, applied to the real world, imagine if you could create a space that changed colour based on the audience’s mood or if we added other senses, such as gesture recognition and aroma?</p>
+<p>When live performances in Stratford-upon-Avon were suspended due to the pandemic, the Royal Shakespeare Company, Audience of The Future and University of Portsmouth adopted virtual production techniques and motion capture to create Dream, inspired by A Midsummer Night’s Dream. Watched by 70,000 people in 151 countries, Dream explored how audiences could experience live performances in the future. Set in a virtual forest, actors were able to interact with viewers watching at home, expanded by music created in realtime based on their movements. Pippa Bostock, Business Director at the University of Portsmouth, was really excited about how viewers at home engaged with the performance, “We saw some really interesting photos trending on Instagram and Twitter, of how people had set the scene for their own Dream experience, with plants around them, and a glass of wine! People were creating their own immersion, something different, something special”.</p>
+<p>The restrictions of not being able to perform in front of an in-person live audience opened up the possibilities of blending the physical and digital in realtime to create new and immersive experiences, wherever you are. Pippa agrees, “We always use a challenge-led approach, exploring what you can do using new technologies, to enable people to have experiences that were not previously possible. The best technology should disappear and you are left with the magic. Interactivity is key, and giving the audience the opportunity to experiment and learn”.</p>
+<p>The Complications of Going Live
+Broadcasting live in any context requires that everything runs like clockwork. When you are live, and the “curtains come up”, that is what the audience sees. Full stop. Ensuring the technology can deliver a live performance without a hitch introduces a very different set of challenges. Building a robust tech stack and realtime pipeline is essential. Using a realtime engine to create a digital twin of the environment in order to design and test prior to building or updating the final physical experience is also a very powerful and essential tool. As Tishura states “For live, the technology has to work 100% of the time, otherwise you break the immersion, you have to keep the fourth wall. Therefore you must have a solutions architect and plan for any scenario when things do not work as expected”.</p>
+<p>With such a new technology there’s a huge learning curve when it comes to the basics requirement of making sure it actually works. Planning is key, as is having an expert and experienced team to help you pull off the experience. Finding the right talent, with the creative skills, experience in delivering live experiences and a deep technical background is challenging.</p>
+<p>Where is the Talent?
+Realtime technology experts are scarce because outside of video game development, where the technology is established, using the tech in this way is still very new. To address this challenge the  University of Portsmouth is building a new department, The Centre for Creative and Immersive Extended Reality (CCIXR), one of the UK’s first integrated facilities to support innovation in the creative and digital technologies of virtual, augmented and extended realities. Pippa is passionate about ensuring the next generation of talent is ready. “We often say we’re building a unicorn farm because there is a skills gap that we need to fill to enable the industry to grow”. These students are unicorns because of the mash-up of creative techniques and technical expertise that have historically been treated as separate disciplines, in education and industry. This trailblazing approach is designed to create the next generation of digital pioneers, working in roles that are only just emerging, or don’t even exist yet. There is a huge opportunity for innovation coming out of the digital-native generation, where for many of them, using tools such as Unreal Engine and Unity as a creative tool will become second nature.</p>
+<p>The Sustainability Question
+The event and technology industry is now on a par with the aviation industry when it comes to carbon impact. The cultural shift accelerated by the pandemic has brought to the top of the agenda, for companies and consumers, our willingness to adopt virtual experiences and refocused attention on the right way to do things, and the wrong ones, and how we can do better. Anna Abdelnoor, Co-Founder of Isla, an independent industry body driving sustainable events to a net-zero future, spoke about how the opportunities and challenges can be opaque, “Virtual production lends itself to hybrid solutions, to fully in-person events which reduce the impact of travel and is, therefore, more sustainable, which unfortunately also makes measuring sustainability very complicated”.</p>
+<p>Virtual production as a sustainable solution, as Anna says, is “up for debate”. Anna believes that the first step is being able to measure the impact – venue energy emissions, temporary power sources, travel and accommodation for attendees and crew, the choice and life cycle of materials, food waste footprint, production and transport costs. To get ahead of the curve, Isla has launched TRACE: a carbon measurement platform for sustainable events.</p>
+<p>How we use virtual production to drive down carbon emissions must revolve around understanding these challenges, and lots of integrated solutions. Designed to track, manage and connect live experiences using a common digital infrastructure, Imagination developed and launched XPKit, a global SaaS-based customer experience toolkit, based on its decades-long experience designing and building live experiences and destinations for major brands. Integrating platforms like these in the future is going to be key to enabling companies to measure and optimise their carbon footprint across physical and digital experiences.</p>
+<p>Into the Metaverse…
+Another key element to consider, with the buzzwords of the moment, such as the Metaverse, NFT’s and Web3, is how realtime technology can be used to enhance and merge physical and virtual experiences in a meaningful and valuable way. Using machine learning algorithms, for example, to automate and adapt experiences in realtime based on audience input or generating personalised content as NFT’s.</p>
+<p>As with all the game-changing technologies that have come before it, we do not know exactly what the short-term vs the long-term outcomes will look like. There is no doubt, however, that as existing talent continues to embrace this, and new talent enters the workforce, it will pave the way for a new wave of spectacular digitally enhanced experiences  – and we need time and industry investment to learn, play and grow these skills.</p>
+<p><a href="/">REWI.RE</a></p></main>
+      <!-- Initial loading state -->
+      <div class="loading" role="status" aria-label="Loading application"></div>
+    </div>
+  </body>
+</html>
